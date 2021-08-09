@@ -1,0 +1,26 @@
+body{
+    background-attachment: fixed;
+    background-image: url(./road.jpg);
+
+}
+body .container .countdown div{
+    background-color: rgba(255, 255, 255, .3);
+    margin: 15px;
+    padding: 29px;
+    text-align: center;
+    border-top: 8px solid red;
+}
+
+ body section .icon i{
+     padding: 6px;
+     margin: 4px;
+     color: red;
+     font-size: 25px;
+ }
+body section ol{
+    list-style-type: georgian;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
