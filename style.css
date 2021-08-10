@@ -20,6 +20,31 @@ body .container .countdown div{
 body section ol{
     list-style-type: georgian;
 }
+ 
+aside{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+aside article .form-control{
+    background-color: rgba(255, 255, 255, .5);
+}
+aside article button{
+    background-color: red;
+}
+  
+ 
+@media only screen and (min-width: 800px) {
+    aside{
+        height: 600px;
+    width: 600px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    aside{
+        height: 100%;
+        width: 100%;
+    }
+}
 
 *, ::after, ::before {
     box-sizing: border-box;
